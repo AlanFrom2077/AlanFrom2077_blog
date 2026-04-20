@@ -1,14 +1,14 @@
 <script setup>
-import { ref } from 'vue'
+import { ref } from "vue"
 
-const sum = ref(0)
-function add1(){
-  sum.value += 1
+const count = ref(0)
+
+function increment(){
+  count.value++
 }
-const content = 'click me +1'
 </script>
 
 <template>
-  <p>{{ sum }}</p>
-  <button @click="add1()">{{ content }}</button>
+  <p>{{ count }}</p>
+  <button @click="increment">click me!</button>
 </template>
