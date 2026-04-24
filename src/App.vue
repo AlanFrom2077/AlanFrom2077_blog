@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="h-screen bg-cover bg-center bg-[url(public/1.jpg)]">
+  <div class="h-screen bg-cover bg-center bg-[url(/1.jpg)]">
     <div class="h-screen bg-cover bg-center">
 
       <div class="bg-gray-300 w-screen h-11 fixed opacity-50">
